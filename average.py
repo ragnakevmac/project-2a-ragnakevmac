@@ -1,9 +1,14 @@
 print("Please enter five numbers.")
 num1 = float(input())
+print(num1)
 num2 = float(input())
+print(num2)
 num3 = float(input())
+print(num3)
 num4 = float(input())
+print(num4)
 num5 = float(input())
-result = (num1 + num2 + num3 + num4 + num5)/5
-print("The average of those numbers is: ")
+print(num5)
+result = (num1 + num2 + num3 + num4 + num5)/5.0
+print("The average of those numbers is:")
 print(result)
